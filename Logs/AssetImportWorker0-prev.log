@@ -1,0 +1,915 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.0f1 (6eacc8284459) revision 7253192'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'ko' Physical Memory: 32690 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/tttt/Indy7_HoloLens2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+7671
+Successfully changed project path to: D:/tttt/Indy7_HoloLens2
+D:/tttt/Indy7_HoloLens2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 132.57 ms, found 23 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.0f1 (6eacc8284459)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/tttt/Indy7_HoloLens2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e87)
+    Vendor:   NVIDIA
+    VRAM:     8010 MB
+    Driver:   30.0.15.1259
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.009313 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 110.96 ms, found 23 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.637 seconds
+Domain Reload Profiling:
+	ReloadAssembly (637ms)
+		BeginReloadAssembly (68ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (466ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (94ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (293ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (53ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (111ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (87ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008838 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\tttt\Indy7_HoloLens2\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\tttt\Indy7_HoloLens2\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 125.78 ms, found 23 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[XR] [MROpenXR][Info   ][15:11:06.249887][tid:320c0] MeshProvider_RegisterLifecycleProvider
+[XR] [MROpenXR][Info   ][15:11:06.249977][tid:320c0] InputProvider_RegisterLifeCycleProvider
+[XR] Error loading subsystem: Display (1) (header mismatch?)
+[XR] [MROpenXR][Info   ][15:11:06.251236][tid:320c0] OnPluginStarted UnityVersion=2021.3.0f1 OpenXRPluginVersion=1.3.1 MROpenXRPluginVersion=1.4.0.0 PartA_PrivTags=33554432
+Mono: successfully reloaded assembly
+- Completed reload, in  2.258 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2259ms)
+		BeginReloadAssembly (199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (117ms)
+		EndReloadAssembly (1965ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (305ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (1415ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (126ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (416ms)
+				ProcessInitializeOnLoadMethodAttributes (710ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.39 ms, found 23 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6114 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2338 unused Assets / (2.4 MB). Loaded Objects now: 6152.
+Memory consumption went from 253.7 MB to 251.4 MB.
+Total: 6.366000 ms (FindLiveObjects: 0.589600 ms CreateObjectMapping: 0.636100 ms MarkObjects: 2.501800 ms  DeleteObjects: 2.637100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 370409.577763 seconds.
+  path: Assets/MRTK/Examples/Experimental/HandMenuLayout/Models/CompressableCylinderVisuals.fbx
+  artifactKey: Guid(5210fb7962c4a0c418e7939db6ef7f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Experimental/HandMenuLayout/Models/CompressableCylinderVisuals.fbx using Guid(5210fb7962c4a0c418e7939db6ef7f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2846acf82d0fe86d26162a87b97116c1') in 0.192397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FfmpegUnity/Materials/RenderTextureMaterial.mat
+  artifactKey: Guid(e9147fe571baa8844addce8a6a357392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FfmpegUnity/Materials/RenderTextureMaterial.mat using Guid(e9147fe571baa8844addce8a6a357392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c19f0b96ccf352071ea272af9486ba') in 0.039281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MRTK/Examples/StandardAssets/Materials/PanelBorder.mat
+  artifactKey: Guid(5d5f207a7d55406998c6a99cc5624451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/StandardAssets/Materials/PanelBorder.mat using Guid(5d5f207a7d55406998c6a99cc5624451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9284f0dc203ef7e8d394f853745f8195') in 0.148376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MRTK/Examples/StandardAssets/Materials/PanelBorderYellow.mat
+  artifactKey: Guid(0fed45d9301946889f5379e3014b5da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/StandardAssets/Materials/PanelBorderYellow.mat using Guid(0fed45d9301946889f5379e3014b5da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474fc93c02aff5f2218f5bb025c55422') in 0.040433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MRTK/StandardAssets/Materials/MRTK_Standard_PurpleDesaturated.mat
+  artifactKey: Guid(e4c84336a1663704083b58c1b3d8cedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/StandardAssets/Materials/MRTK_Standard_PurpleDesaturated.mat using Guid(e4c84336a1663704083b58c1b3d8cedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ee96cf02ece23d5572b0fa7be00cf8') in 0.021865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/MRTK/Examples/Demos/EyeTracking/DemoScrollPanZoom/Materials/tex_icon_scrolling.mat
+  artifactKey: Guid(926476daea254b746abf0da7dba4c346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/EyeTracking/DemoScrollPanZoom/Materials/tex_icon_scrolling.mat using Guid(926476daea254b746abf0da7dba4c346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1fc602ab98ece53c524bd476009f37c') in 0.075955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MRTK/Examples/Experimental/Elastic/Materials/springs.mat
+  artifactKey: Guid(ff468968eb265e44c80f6f92a3667464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Experimental/Elastic/Materials/springs.mat using Guid(ff468968eb265e44c80f6f92a3667464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '472e0531df4db27d30cd9b70ba145454') in 0.075183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/StandardAssets/FontsSDFTextures/DepthWriteOn/segoeuib SDF.asset
+  artifactKey: Guid(708ca4cbd1d60c64184b76fa75044402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/StandardAssets/FontsSDFTextures/DepthWriteOn/segoeuib SDF.asset using Guid(708ca4cbd1d60c64184b76fa75044402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b6020e07abffcea072760cbe667880') in 0.033561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Meshes/Cursors/Materials/Shadow.mat
+  artifactKey: Guid(fc1b6cd8da653e3448dcdb722ada2ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Meshes/Cursors/Materials/Shadow.mat using Guid(fc1b6cd8da653e3448dcdb722ada2ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279c71f1c00702b8257473e5dad2bfd6') in 0.011549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Materials/Teleport/TeleportBase.mat
+  artifactKey: Guid(3cb2d87ea9463e642b8419db5ab1b7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Materials/Teleport/TeleportBase.mat using Guid(3cb2d87ea9463e642b8419db5ab1b7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ffdf04309d08ff64dd8cf42efa8ec1f') in 0.015375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/StandardAssets/Materials/MRTK_Standard_TransparentLime.mat
+  artifactKey: Guid(d8efdb3c98967354dad720c9f34297fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/StandardAssets/Materials/MRTK_Standard_TransparentLime.mat using Guid(d8efdb3c98967354dad720c9f34297fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61fd947a62757b2131529e41686a7ec6') in 0.017896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MRTK/StandardAssets/Materials/MRTK_Standard_GlowingCyan.mat
+  artifactKey: Guid(27a6136d64696da4eba1b89b3df8d3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/StandardAssets/Materials/MRTK_Standard_GlowingCyan.mat using Guid(27a6136d64696da4eba1b89b3df8d3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e5ac18335c973d3914b4d5ba57146de') in 0.123006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MRTK/StandardAssets/Materials/MRTK_Standard_Cyan.mat
+  artifactKey: Guid(53ea63593b32415faf734536616f5fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/StandardAssets/Materials/MRTK_Standard_Cyan.mat using Guid(53ea63593b32415faf734536616f5fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8412b050f0e8243af69b0e249d364a0f') in 0.027581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Materials/PinchSliderTickMarkMaterial.mat
+  artifactKey: Guid(ed82846a116c9d340b4f3b698b37659b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Materials/PinchSliderTickMarkMaterial.mat using Guid(ed82846a116c9d340b4f3b698b37659b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491940f1fc4fea7e22a1bcdab992c4c3') in 0.022398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MRTK/StandardAssets/FontsSDFTextures/DepthWriteOff/seguisb SDF_zwrite_off.asset
+  artifactKey: Guid(ad601d838b0fb2744937cd5dad890e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/StandardAssets/FontsSDFTextures/DepthWriteOff/seguisb SDF_zwrite_off.asset using Guid(ad601d838b0fb2744937cd5dad890e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e49e48009b819ba58217b064bbdf2e2') in 0.027477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Materials/ProgressIndicatorRotatingObject.mat
+  artifactKey: Guid(59d1a944c3539e948a06381c3e5d6b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Materials/ProgressIndicatorRotatingObject.mat using Guid(59d1a944c3539e948a06381c3e5d6b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcd368b0b2ed04cb170ca4da2b9c6d53') in 0.048573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MRTK/Examples/StandardAssets/Materials/ShaderBallRustedIron.mat
+  artifactKey: Guid(7e7ab7e25bae45eb8043174858a9969a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/StandardAssets/Materials/ShaderBallRustedIron.mat using Guid(7e7ab7e25bae45eb8043174858a9969a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb6c3d285e468cabf9334e24bf87923') in 0.239394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/Examples/StandardAssets/Materials/ShaderBallUnlit.mat
+  artifactKey: Guid(07ec3b71cb11499faaf32bc89eb9f0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/StandardAssets/Materials/ShaderBallUnlit.mat using Guid(07ec3b71cb11499faaf32bc89eb9f0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac298d9292882bb742f7f6e30219b3cb') in 0.048476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MRTK/StandardAssets/Materials/MRTK_Standard_Lime.mat
+  artifactKey: Guid(00665e2a669d4b0fab1965843b4c914b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/StandardAssets/Materials/MRTK_Standard_Lime.mat using Guid(00665e2a669d4b0fab1965843b4c914b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be44e0069d585e93b82fdd7f9a0b94c0') in 0.024886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/Examples/StandardAssets/Models/PianoModel.fbx
+  artifactKey: Guid(a37785fa4a4129246a58f79132a1b6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/StandardAssets/Models/PianoModel.fbx using Guid(a37785fa4a4129246a58f79132a1b6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3a2524898ff4cf4d64637bd6f5a5fd') in 0.211538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MRTK/SDK/StandardAssets/Materials/MRTK_FingerTipCursor.mat
+  artifactKey: Guid(aa5119690ae21f44cbf896a1ee51d015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/StandardAssets/Materials/MRTK_FingerTipCursor.mat using Guid(aa5119690ae21f44cbf896a1ee51d015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b38c619be6218c91804cada5f0f5299') in 0.012447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MRTK/StandardAssets/Materials/MRTK_Standard_TransparentYellow.mat
+  artifactKey: Guid(6a92a01febd262544a43a7fe54b88013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/StandardAssets/Materials/MRTK_Standard_TransparentYellow.mat using Guid(6a92a01febd262544a43a7fe54b88013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b089a62bbd908e612904eaf741c4f0c7') in 0.017306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/MRTK/StandardAssets/FontsSDFTextures/DepthWriteOn/segoeui SDF.asset
+  artifactKey: Guid(afc8299d5d5bbd440a0616c8ecbc7217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/StandardAssets/FontsSDFTextures/DepthWriteOn/segoeui SDF.asset using Guid(afc8299d5d5bbd440a0616c8ecbc7217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b19211d3a17357bd69adda6e9091044') in 0.022109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MRTK/StandardAssets/Materials/MRTK_Standard_LimeDesaturated.mat
+  artifactKey: Guid(56848fd596f082a43844edfc0e7647ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/StandardAssets/Materials/MRTK_Standard_LimeDesaturated.mat using Guid(56848fd596f082a43844edfc0e7647ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a07811333aab5bae1ca418ff2a9418') in 0.016091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MRTK/Examples/StandardAssets/Materials/ShaderBallClippingPlaneInner.mat
+  artifactKey: Guid(11043ba092e44ae496f1361e7c0d8b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/StandardAssets/Materials/ShaderBallClippingPlaneInner.mat using Guid(11043ba092e44ae496f1361e7c0d8b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3599bd9539d8eaae6c2c18204f85a98f') in 0.080904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/MRTK/StandardAssets/Materials/MRTK_Standard_Black.mat
+  artifactKey: Guid(54322026142964d4084eda2478d9b1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/StandardAssets/Materials/MRTK_Standard_Black.mat using Guid(54322026142964d4084eda2478d9b1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1d9ae6b934036f88a9a4145ed05ac0') in 0.016778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MRTK/Examples/StandardAssets/Materials/MRTK_Examples_Table.mat
+  artifactKey: Guid(8c8990988051a6541b4f093a93ed6f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/StandardAssets/Materials/MRTK_Examples_Table.mat using Guid(8c8990988051a6541b4f093a93ed6f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d97d933648d14803b983817d225a96a') in 0.072066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/MRTK/Examples/StandardAssets/Materials/ShaderBallDefault.mat
+  artifactKey: Guid(3b60d35429b8406b82b7863df5a08351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/StandardAssets/Materials/ShaderBallDefault.mat using Guid(3b60d35429b8406b82b7863df5a08351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38da57b989df6c37e6a8af62a8f1fda8') in 0.064026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MRTK/StandardAssets/Materials/MRTK_Standard_TransparentOrange.mat
+  artifactKey: Guid(4e7efd468ef796b4cbdefce6c9b071f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/StandardAssets/Materials/MRTK_Standard_TransparentOrange.mat using Guid(4e7efd468ef796b4cbdefce6c9b071f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf56e00004f68c9e534fad5e64c49b6') in 0.016142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MRTK/Examples/StandardAssets/Materials/ShaderBallNormalMap.mat
+  artifactKey: Guid(f28fd718b30341e8b834f80861d18aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/StandardAssets/Materials/ShaderBallNormalMap.mat using Guid(f28fd718b30341e8b834f80861d18aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad572a8d13e2880dbb8c73e17856c524') in 0.087639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MRTK/Examples/Demos/ScrollingObjectCollection/Materials/ScrollWindowBackground.mat
+  artifactKey: Guid(314b504e2431fac4f972a371004f91a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/ScrollingObjectCollection/Materials/ScrollWindowBackground.mat using Guid(314b504e2431fac4f972a371004f91a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af242d0d3af5daa4a27a026ab4af877d') in 0.074879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/MRTK/StandardAssets/Materials/MRTK_Occlusion.mat
+  artifactKey: Guid(a809c7ea182b699409443d46d5b42435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/StandardAssets/Materials/MRTK_Occlusion.mat using Guid(a809c7ea182b699409443d46d5b42435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15102dbd4d179f124390b7d161a5a1d') in 0.013082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/Examples/StandardAssets/Materials/VertexExtrusion.mat
+  artifactKey: Guid(e7e8f42522979ae46b757e994f32af5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/StandardAssets/Materials/VertexExtrusion.mat using Guid(e7e8f42522979ae46b757e994f32af5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25319f548ca749889072276461ca747f') in 0.074627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MRTK/StandardAssets/Materials/MRTK_Standard_Gray.mat
+  artifactKey: Guid(835cb4a58f172d7478801db95e510f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/StandardAssets/Materials/MRTK_Standard_Gray.mat using Guid(835cb4a58f172d7478801db95e510f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a536b46acd8c7d9952c55a7a90e6c1bf') in 0.017538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/ToggleBackground.mat
+  artifactKey: Guid(a07d81f563d59544fb6ae5588f5bd0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/ToggleBackground.mat using Guid(a07d81f563d59544fb6ae5588f5bd0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d0b3ccdf3de0f6ff51a805bfa788be') in 0.061378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/Examples/StandardAssets/Materials/StencilPortalShaderBall.mat
+  artifactKey: Guid(d79c76bf52604bf9ab98a38499aeec94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/StandardAssets/Materials/StencilPortalShaderBall.mat using Guid(d79c76bf52604bf9ab98a38499aeec94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad827110dc10edba90a32d7a31cf8f4') in 0.065647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MRTK/Examples/StandardAssets/Materials/PanelBorderRoundedPink.mat
+  artifactKey: Guid(663fb93be6c942169190bfa03ae579b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/StandardAssets/Materials/PanelBorderRoundedPink.mat using Guid(663fb93be6c942169190bfa03ae579b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0893faec95156dea5c3ea4a47277c3') in 0.021538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/MRTK/Examples/StandardAssets/Materials/TextMeshProMaterial.mat
+  artifactKey: Guid(62548541d7eb3324881d660f1147f533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/StandardAssets/Materials/TextMeshProMaterial.mat using Guid(62548541d7eb3324881d660f1147f533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4c680f968fa74adf2fc562107a4986') in 0.044722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/StandardAssets/Materials/MRTK_Standard_TransparentDarkGray.mat
+  artifactKey: Guid(07ebc80273d64c84b923be3e5f484151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/StandardAssets/Materials/MRTK_Standard_TransparentDarkGray.mat using Guid(07ebc80273d64c84b923be3e5f484151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45cd5add42b4c0388879fbe6b72362e') in 0.089657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MRTK/Examples/Demos/EyeTracking/DemoScrollPanZoom/Materials/tex_icon_panzoom.mat
+  artifactKey: Guid(92d594c7aaed36f4d94790f036705980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/EyeTracking/DemoScrollPanZoom/Materials/tex_icon_panzoom.mat using Guid(92d594c7aaed36f4d94790f036705980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3b558a0f4e3ffcd9c5d9a9016ee756') in 0.081992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MRTK/StandardAssets/Materials/MRTK_Standard_LightGray.mat
+  artifactKey: Guid(d5334c45caee46be937b095a1e977dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/StandardAssets/Materials/MRTK_Standard_LightGray.mat using Guid(d5334c45caee46be937b095a1e977dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e627a49e89af1f630d401d544bfec99f') in 0.011794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Meshes/Sliders/thick_rounded12.fbx
+  artifactKey: Guid(8881ed45b1c1d9c45b0f99ba2730ee66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Meshes/Sliders/thick_rounded12.fbx using Guid(8881ed45b1c1d9c45b0f99ba2730ee66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b674cdab0da27992e42f6c6714c9839b') in 0.043211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/Examples/Experimental/HandMenuLayout/Models/Circle.fbx
+  artifactKey: Guid(979fb0c21a0dd1047824f2ce933e4f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Experimental/HandMenuLayout/Models/Circle.fbx using Guid(979fb0c21a0dd1047824f2ce933e4f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b9168877ab2b776e9acd599f33bd80') in 0.061812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/SDK/StandardAssets/Models/MRTK_BoundingBox_RotateHandle.fbx
+  artifactKey: Guid(57c53da2552a8114ab6d68e0cd31b1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/StandardAssets/Models/MRTK_BoundingBox_RotateHandle.fbx using Guid(57c53da2552a8114ab6d68e0cd31b1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43008ae12ec8899ac870f82c2e01234f') in 0.027660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MRTK/Examples/StandardAssets/Materials/StencilPortal.mat
+  artifactKey: Guid(cf7dc37a7e57439bac6d2cc0c6def956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/StandardAssets/Materials/StencilPortal.mat using Guid(cf7dc37a7e57439bac6d2cc0c6def956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca810684065985ea1d01bdd5bc8b344b') in 0.037126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MRTK/StandardAssets/Materials/MRTK_Standard_DarkBrown.mat
+  artifactKey: Guid(a7448698c15706f48905e44d8e76f2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/StandardAssets/Materials/MRTK_Standard_DarkBrown.mat using Guid(a7448698c15706f48905e44d8e76f2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e00d359a5b897a7d0237c74a89e962') in 0.017264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MRTK/Examples/Experimental/TouchSlider/Materials/MRTK_TouchSlider_Thumb.mat
+  artifactKey: Guid(31435748ea5c60d4a89beef4e9c897f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Experimental/TouchSlider/Materials/MRTK_TouchSlider_Thumb.mat using Guid(31435748ea5c60d4a89beef4e9c897f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87c2174811c2159ff44c839e513cc88') in 0.095541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MRTK/SDK/StandardAssets/Materials/MRTK_GrabPointerGrabPoint.mat
+  artifactKey: Guid(fc1d56dcfc4950949a5b56a1399a1822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/StandardAssets/Materials/MRTK_GrabPointerGrabPoint.mat using Guid(fc1d56dcfc4950949a5b56a1399a1822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2839df23dcd5a2ca14c3de990498a254') in 0.012861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MRTK/Examples/StandardAssets/Materials/PianoKeys.mat
+  artifactKey: Guid(814f847a105eb454d8c8bc27047dcb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/StandardAssets/Materials/PianoKeys.mat using Guid(814f847a105eb454d8c8bc27047dcb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b15b346b4257baed2a6aad0822d741') in 0.082247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MRTK/SDK/StandardAssets/Materials/MRTK_DefaultPointerLineNoTarget.mat
+  artifactKey: Guid(876c7e981edab3a44918b5c51482a286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/StandardAssets/Materials/MRTK_DefaultPointerLineNoTarget.mat using Guid(876c7e981edab3a44918b5c51482a286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77bc48a0ceb7d97a99ad71c4034949fd') in 0.017320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/MRTK/SDK/Experimental/MixedRealityKeyboardPreview/Materials/MixedRealityKeyboardPreviewButtonBackPlate.mat
+  artifactKey: Guid(6f99b8c3ebc31c942a5af2e66bfa5950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Experimental/MixedRealityKeyboardPreview/Materials/MixedRealityKeyboardPreviewButtonBackPlate.mat using Guid(6f99b8c3ebc31c942a5af2e66bfa5950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e5b95e46b6a95cbafaa38d95878e3b') in 0.058196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/SDK/StandardAssets/Materials/MRTK_ArticulatedHandMesh.mat
+  artifactKey: Guid(45082b98567b3d44ca3bdbe39f46041a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/StandardAssets/Materials/MRTK_ArticulatedHandMesh.mat using Guid(45082b98567b3d44ca3bdbe39f46041a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1606b8730dc8caabf0a11d951915310d') in 0.027735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.134559 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Materials/BoundingBox.mat
+  artifactKey: Guid(4a9aae3094118f44593e7f8000e24c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Materials/BoundingBox.mat using Guid(4a9aae3094118f44593e7f8000e24c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58cf9b14c7208efd6e4756bf38633e92') in 0.060631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.927760 seconds.
+  path: Assets/MRTK/Examples/Experimental/HandMenuLayout/Materials/ButtonBox_BodyFace_mat.mat
+  artifactKey: Guid(e7d28a0975ff4514ca98304c59eca8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Experimental/HandMenuLayout/Materials/ButtonBox_BodyFace_mat.mat using Guid(e7d28a0975ff4514ca98304c59eca8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499bc6c0fb33ac0cfc98dc2f52b14086') in 0.089322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/ColorButtonProximity.mat
+  artifactKey: Guid(bdccf05745da15347b32e2a4ff255dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/ColorButtonProximity.mat using Guid(bdccf05745da15347b32e2a4ff255dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc61b1c81dbd7e548aeaf0cf305a0881') in 0.141607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.091717 seconds.
+  path: Assets/AVProVideo/Demos/Common/Demo-360.mat
+  artifactKey: Guid(db39bb6249db0924bb87d6e0bb294ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AVProVideo/Demos/Common/Demo-360.mat using Guid(db39bb6249db0924bb87d6e0bb294ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6a00fd0f30aafa6a38513255f15fb1') in 0.024489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MRTK/Examples/Demos/EyeTracking/DemoTargetSelections/Materials/EyeGazeCursor 1.mat
+  artifactKey: Guid(f35b45e77783d754ea8d9fc0f502c49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/EyeTracking/DemoTargetSelections/Materials/EyeGazeCursor 1.mat using Guid(f35b45e77783d754ea8d9fc0f502c49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3faeef5acc683e30caaed55677aa989f') in 0.067034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MRTK/Examples/Experimental/SceneUnderstanding/Materials/DemoSceneUnderstandingWorldMesh.mat
+  artifactKey: Guid(f6d42d214eaa65e44965e766112eb678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Experimental/SceneUnderstanding/Materials/DemoSceneUnderstandingWorldMesh.mat using Guid(f6d42d214eaa65e44965e766112eb678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048e908ec3682a7b62d2410c1ab9c1af') in 0.088075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MRTK/Examples/StandardAssets/Materials/Font.mat
+  artifactKey: Guid(2a65a96aa29341b0a25ab4be7dff429a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/StandardAssets/Materials/Font.mat using Guid(2a65a96aa29341b0a25ab4be7dff429a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da80c6bdd7cb90970869a1cf6685519') in 0.056909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.058830 seconds.
+  path: Assets/MRTK/StandardAssets/Fonts/selawk.ttf
+  artifactKey: Guid(e48b920555144c6da3ee2ab03f0fda88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/StandardAssets/Fonts/selawk.ttf using Guid(e48b920555144c6da3ee2ab03f0fda88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '113372b940319b45dd82e2f5760fb5a3') in 0.019868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/MRTK/Examples/Experimental/HandMenuLayout/Materials/HandMenuIcon_3x1.mat
+  artifactKey: Guid(5c96e89a2be098b4daa2f326b845abe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Experimental/HandMenuLayout/Materials/HandMenuIcon_3x1.mat using Guid(5c96e89a2be098b4daa2f326b845abe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e19e13701567696440befd2b6e041b3') in 0.060040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/Examples/Experimental/HandMenuLayout/Materials/HandMenuIcon_3x2.mat
+  artifactKey: Guid(0056e30912ba4a047b02c085105dfbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Experimental/HandMenuLayout/Materials/HandMenuIcon_3x2.mat using Guid(0056e30912ba4a047b02c085105dfbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6a4bd264450b10af6b0e6baf03d4aa') in 0.017002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/Examples/Experimental/HandMenuLayout/Materials/HandMenuIcon_3x1_Circles.mat
+  artifactKey: Guid(69c05afc3438a35418a58af01704459a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Experimental/HandMenuLayout/Materials/HandMenuIcon_3x1_Circles.mat using Guid(69c05afc3438a35418a58af01704459a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9557c5fd9284369b6be4004f3e4b71') in 0.025042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/Ground.mat
+  artifactKey: Guid(1fac60a6b183d204dbe2c379128ad367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/Ground.mat using Guid(1fac60a6b183d204dbe2c379128ad367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b00b452c9f09c9ebeef87f96af36949') in 0.021428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlateCircular.mat
+  artifactKey: Guid(68f0ad9fadae8b3438ebd66cdba2b20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlateCircular.mat using Guid(68f0ad9fadae8b3438ebd66cdba2b20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caa03b12e4d5fa79848245c5f1ba90cf') in 0.078154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlateLabel.mat
+  artifactKey: Guid(33bd7ed5b0c7fbf458af3e21dc58c192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlateLabel.mat using Guid(33bd7ed5b0c7fbf458af3e21dc58c192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20436d284a10d0aede46c5df5ea4659') in 0.085222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlateRecordingState.mat
+  artifactKey: Guid(68581ab65a54bad45b3d0fbfca7613fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicBackPlateRecordingState.mat using Guid(68581ab65a54bad45b3d0fbfca7613fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90bf70d2f4d4efeedbee07bb47f6effd') in 0.084358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonContentCageProximityCircular.mat
+  artifactKey: Guid(ed88a1368a3ad7248b15504ada5915a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonContentCageProximityCircular.mat using Guid(ed88a1368a3ad7248b15504ada5915a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b667aa701df945dd1250c4dd82fb725d') in 0.115542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconGrabAreaVertical.mat
+  artifactKey: Guid(b491e50f6adf1ad4485d30f9d945271c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconGrabAreaVertical.mat using Guid(b491e50f6adf1ad4485d30f9d945271c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45200fc99f723f7bec7521f08ae8ed85') in 0.054767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconGrabAreaDouble.mat
+  artifactKey: Guid(562472529ff7b124fb4142dc857bcda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconGrabAreaDouble.mat using Guid(562472529ff7b124fb4142dc857bcda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bebe500c13228183a8447b028f8407d') in 0.043308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconSwitchOn.mat
+  artifactKey: Guid(20c31511c9696d44d9399b948fd84c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconSwitchOn.mat using Guid(20c31511c9696d44d9399b948fd84c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3423580958b7f560837af737e40cb875') in 0.056939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconStar.mat
+  artifactKey: Guid(6f0c1af0718ce6d4abe8b90d6e2c283f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconStar.mat using Guid(6f0c1af0718ce6d4abe8b90d6e2c283f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65524841f3d0e31c164c2b5d1200dd2') in 0.018083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/Examples/Demos/Input/Scenes/InputData/InputRaysFloor.mat
+  artifactKey: Guid(5ad51b8ac2de33043aa6ff081b1d1617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/Input/Scenes/InputData/InputRaysFloor.mat using Guid(5ad51b8ac2de33043aa6ff081b1d1617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c11279ccec983f14114accdab0944e4') in 0.101939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/item/Materials/KakaoTalk_20220509_104048488.mat
+  artifactKey: Guid(b6a077299e9dc6b4bb6f2df568355d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/item/Materials/KakaoTalk_20220509_104048488.mat using Guid(b6a077299e9dc6b4bb6f2df568355d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa6f8312eeddc4b639407bfa24ecdd7') in 0.079705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MRTK/Examples/Demos/Input/Scenes/InputData/InputRaysFloor_Highlighted.mat
+  artifactKey: Guid(3f37b7f7a8cd11249a3e29496b30b2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/Input/Scenes/InputData/InputRaysFloor_Highlighted.mat using Guid(3f37b7f7a8cd11249a3e29496b30b2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd73ce6256e8bf5185f558ddbf80aa1c') in 0.016606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MRTK/Examples/Experimental/Joystick/JoystickFloorMaterial.mat
+  artifactKey: Guid(08fa7172ba2185740bae014bca6c2270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Experimental/Joystick/JoystickFloorMaterial.mat using Guid(08fa7172ba2185740bae014bca6c2270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce64324ed5a0774be85157f3eedaf79') in 0.195911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MRTK/Examples/Demos/EyeTracking/DemoVisualizer/Materials/mat_btn_backgr.mat
+  artifactKey: Guid(1ec21ccb4cbac3643b1ffeeef68d7fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/EyeTracking/DemoVisualizer/Materials/mat_btn_backgr.mat using Guid(1ec21ccb4cbac3643b1ffeeef68d7fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df2a92f340f16d18f1abaaffd38bc46') in 0.108316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MRTK/Examples/Demos/EyeTracking/DemoVisualizer/Materials/mat_heatramp.mat
+  artifactKey: Guid(96f1840696a35b840929fc996f2997f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/EyeTracking/DemoVisualizer/Materials/mat_heatramp.mat using Guid(96f1840696a35b840929fc996f2997f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15bfe3825b0ec612b96e22c2281c9e3') in 0.065516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MRTK/SDK/StandardAssets/Models/Handle_Base.FBX
+  artifactKey: Guid(05caa5187fce40347be70de0b50397ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/StandardAssets/Models/Handle_Base.FBX using Guid(05caa5187fce40347be70de0b50397ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6374269b90434b46eab53b3319058a') in 0.069669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MRTK/Examples/Demos/EyeTracking/General/Materials/mat_buttonfeedback.mat
+  artifactKey: Guid(30eb0396bc085c54c8ef1dedf1544107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/EyeTracking/General/Materials/mat_buttonfeedback.mat using Guid(30eb0396bc085c54c8ef1dedf1544107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a71e639f8f727ac59c9b423cf27334') in 0.232565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MRTK/Examples/Demos/EyeTracking/DemoTargetSelections/Materials/mat_notification_box_5x1.mat
+  artifactKey: Guid(7aae483986b236848bb7fdfd39f6dcb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/EyeTracking/DemoTargetSelections/Materials/mat_notification_box_5x1.mat using Guid(7aae483986b236848bb7fdfd39f6dcb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2e9491f7edc41f707a4559bc31973a') in 0.101941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MRTK/Examples/Demos/EyeTracking/DemoScrollPanZoom/Materials/mat_SlateFrame.mat
+  artifactKey: Guid(bac739e2e76617440995bf17ccb956a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/EyeTracking/DemoScrollPanZoom/Materials/mat_SlateFrame.mat using Guid(bac739e2e76617440995bf17ccb956a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f378154c17a9d5e64dc5a25c8dfa11e6') in 0.073554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MRTK/Examples/Demos/EyeTracking/DemoTargetPositioning/Materials/mat_sliderknob.mat
+  artifactKey: Guid(7159abf2cff69ed45a1611036ff502c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/EyeTracking/DemoTargetPositioning/Materials/mat_sliderknob.mat using Guid(7159abf2cff69ed45a1611036ff502c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c21f282c75b9f3f14efa5ea3bc9828') in 0.064764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MRTK/Examples/Demos/EyeTracking/DemoVisualizer/Materials/mat_icon_StartRecording.mat
+  artifactKey: Guid(92bad396bc02afa4fa467aef94cf7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/EyeTracking/DemoVisualizer/Materials/mat_icon_StartRecording.mat using Guid(92bad396bc02afa4fa467aef94cf7513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12bb4d4e2b9758fcbbdc2a50df354a1a') in 0.092590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MRTK/Examples/StandardAssets/Materials/InvisibleBacking.mat
+  artifactKey: Guid(8c4e6f72f0576e3469f9142f2cbf8d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/StandardAssets/Materials/InvisibleBacking.mat using Guid(8c4e6f72f0576e3469f9142f2cbf8d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ccbbff65b99f9d9e9269824f1da000') in 0.390594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MRTK/Examples/StandardAssets/Materials/MatrixMRTKStandard.mat
+  artifactKey: Guid(2384d74394f84182a505941e394cc8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/StandardAssets/Materials/MatrixMRTKStandard.mat using Guid(2384d74394f84182a505941e394cc8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ec07fb5b4f244c004d57094bf45aa7') in 0.065483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonContent.mat
+  artifactKey: Guid(1ad68daec9ac6374cb32214e55dc158e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonContent.mat using Guid(1ad68daec9ac6374cb32214e55dc158e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b7c2a7bd1fce72ab43dfa74d3e108d') in 0.060901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MRTK/Examples/StandardAssets/Materials/HoverLightParticle.mat
+  artifactKey: Guid(743afc8c61ca6014da823e7a286ff374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/StandardAssets/Materials/HoverLightParticle.mat using Guid(743afc8c61ca6014da823e7a286ff374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02b6bc9f9bd3c84e4a9468719eb1659') in 0.106760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconMicrophone.mat
+  artifactKey: Guid(23b680d6c13ccad4ba5004f1b6a22462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconMicrophone.mat using Guid(23b680d6c13ccad4ba5004f1b6a22462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285fa67615f5136a9b9864c91e5a8cae') in 0.018490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MRTK/Examples/StandardAssets/Materials/JointReticle.mat
+  artifactKey: Guid(a4f69d1689086fd4aa72e54c268c73c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/StandardAssets/Materials/JointReticle.mat using Guid(a4f69d1689086fd4aa72e54c268c73c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6555f4e124ada4a6535a49cd826f955') in 0.079339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconRadioOff.mat
+  artifactKey: Guid(faf1d0b5c5c707547974f64e21432204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconRadioOff.mat using Guid(faf1d0b5c5c707547974f64e21432204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50dc0620d1b299b20f61877d4a08717') in 0.052899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MRTK/Examples/StandardAssets/Materials/MatrixUnityStandardNoReflections.mat
+  artifactKey: Guid(1d23e81bfb3d40468163eee927dc8107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/StandardAssets/Materials/MatrixUnityStandardNoReflections.mat using Guid(1d23e81bfb3d40468163eee927dc8107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a3efc897d5348908d1e48845495921') in 0.085019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AVProVideo/Demos/Common/MediaPlayerUI/MediaPlayerUI-AudioSpectrum.mat
+  artifactKey: Guid(af11c0475fc59fd46ae3d7101e9cb7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AVProVideo/Demos/Common/MediaPlayerUI/MediaPlayerUI-AudioSpectrum.mat using Guid(af11c0475fc59fd46ae3d7101e9cb7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f053ff54d3c7a741e1f933c687c09b9') in 0.015560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AVProVideo/Demos/Common/MediaPlayerUI/MediaPlayerUI-NavBack.mat
+  artifactKey: Guid(3defb26db59b1fa489c3d83b2dda2210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AVProVideo/Demos/Common/MediaPlayerUI/MediaPlayerUI-NavBack.mat using Guid(3defb26db59b1fa489c3d83b2dda2210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5027e9346836136b62a580e2a5015850') in 0.023020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AVProVideo/Demos/Common/MediaPlayerUI/MediaPlayerUI-NavForward.mat
+  artifactKey: Guid(fc3335a6cd5229642a818d162865fe8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AVProVideo/Demos/Common/MediaPlayerUI/MediaPlayerUI-NavForward.mat using Guid(fc3335a6cd5229642a818d162865fe8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae58abe4686177c590a1748783a724b') in 0.025348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MRTK/Examples/StandardAssets/Materials/MatrixMRTKStandardNoReflections.mat
+  artifactKey: Guid(1081bb6a99e9478fa8980ca41beec8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/StandardAssets/Materials/MatrixMRTKStandardNoReflections.mat using Guid(1081bb6a99e9478fa8980ca41beec8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c444db47da0c56c07f05b84e6b4d9e') in 0.020912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AVProVideo/Demos/Common/MediaPlayerUI/MediaPlayerUI-CC.mat
+  artifactKey: Guid(8e67518da82e8334685a53cd09579095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AVProVideo/Demos/Common/MediaPlayerUI/MediaPlayerUI-CC.mat using Guid(8e67518da82e8334685a53cd09579095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0177cee4e8f23c9210568a66c1602585') in 0.019311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MRTK/Examples/Demos/EyeTracking/DemoTargetSelections/Materials/mat_rotationSphere.mat
+  artifactKey: Guid(8b2504c39481f0042b2c8bf5acbbef5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/Demos/EyeTracking/DemoTargetSelections/Materials/mat_rotationSphere.mat using Guid(8b2504c39481f0042b2c8bf5acbbef5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a254cbdb53aea789bc998c0034e8034c') in 0.032897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconHandRay.mat
+  artifactKey: Guid(bd7c74df0032a844d80ddbb18c426143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Interactable/Materials/HolographicButtonIconHandRay.mat using Guid(bd7c74df0032a844d80ddbb18c426143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f461d80018132cd9ffc7b340727ab8d3') in 0.035862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MRTK/Examples/StandardAssets/Models/Tree.fbm/MaterialTree.mat
+  artifactKey: Guid(ded4159fdff3e874580aa6c6cf2e0259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/StandardAssets/Models/Tree.fbm/MaterialTree.mat using Guid(ded4159fdff3e874580aa6c6cf2e0259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f33ac9dc0a04119b63943d78a06803') in 0.105755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.484821 seconds.
+  path: Assets/item/room_Ver3/tv2.fbx
+  artifactKey: Guid(aa45d882b756fc44583dbfd2d232f1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/item/room_Ver3/tv2.fbx using Guid(aa45d882b756fc44583dbfd2d232f1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b584eb6171d09f194c0ccba4d646b02') in 0.229678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.114877 seconds.
+  path: Assets/MRTK/SDK/Features/UX/Meshes/Pointers/DefaultPointerDottedLine.fbx
+  artifactKey: Guid(22a8495610f36594ebf91bc92e5579c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/SDK/Features/UX/Meshes/Pointers/DefaultPointerDottedLine.fbx using Guid(22a8495610f36594ebf91bc92e5579c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083fa6b3f9d4fa9cee0bee773144b3bb') in 0.034829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.225289 seconds.
+  path: Assets/MRTK/Examples/StandardAssets/Models/Model_Octa.fbx
+  artifactKey: Guid(40bb9772594a93140a43a9a4f5cf9356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/StandardAssets/Models/Model_Octa.fbx using Guid(40bb9772594a93140a43a9a4f5cf9356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '065a7fc06ea0331a78f2915acbfa9fc1') in 0.044070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.447606 seconds.
+  path: Assets/MRTK/Examples/StandardAssets/Models/ShaderBall.FBX
+  artifactKey: Guid(1104611d051d4e42a68391888b61b32e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/StandardAssets/Models/ShaderBall.FBX using Guid(1104611d051d4e42a68391888b61b32e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8c0b88245d4ab383b756f6e628a641') in 0.037024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034175 seconds.
+  path: Assets/MRTK/Examples/StandardAssets/Models/EarthCore.fbx
+  artifactKey: Guid(c72691f7b364d264abdb41ef2f01c706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Examples/StandardAssets/Models/EarthCore.fbx using Guid(c72691f7b364d264abdb41ef2f01c706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d263017fa48183b0958064e5f81682') in 0.123006 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 17.05 ms, found 23 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 133 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 135 unused Assets / (259.3 KB). Loaded Objects now: 6199.
+Memory consumption went from 102.5 MB to 102.3 MB.
+Total: 4.598100 ms (FindLiveObjects: 0.480000 ms CreateObjectMapping: 0.522400 ms MarkObjects: 3.401600 ms  DeleteObjects: 0.193300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 17.46 ms, found 23 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 133 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 133 unused Assets / (251.3 KB). Loaded Objects now: 6199.
+Memory consumption went from 102.5 MB to 102.3 MB.
+Total: 4.803100 ms (FindLiveObjects: 0.476100 ms CreateObjectMapping: 0.500200 ms MarkObjects: 3.629300 ms  DeleteObjects: 0.196600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007714 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\tttt\Indy7_HoloLens2\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\tttt\Indy7_HoloLens2\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.69 ms, found 23 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Assets/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Assets/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/MRTK/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.641 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2641ms)
+		BeginReloadAssembly (214ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (2341ms)
+			LoadAssemblies (174ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (326ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (1674ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (259ms)
+				ProcessInitializeOnLoadMethodAttributes (1292ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.66 ms, found 23 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6001 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 133 unused Assets / (351.8 KB). Loaded Objects now: 6206.
+Memory consumption went from 225.6 MB to 225.3 MB.
+Total: 3.614100 ms (FindLiveObjects: 0.450100 ms CreateObjectMapping: 0.398000 ms MarkObjects: 2.566200 ms  DeleteObjects: 0.198800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
